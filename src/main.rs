@@ -119,7 +119,6 @@ fn search(nb: i32, array: [i32; 255]) -> i32 {
     }
     if found {
         return mid as i32;
-    } else {
-        return -1;
     }
+    return -1;
 }
